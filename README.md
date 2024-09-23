@@ -105,14 +105,14 @@ Both the pool and connections have `*_b` variants of all common query methods:
 | `**`                     | `^` |
 | `-`                      | `-` |
 | `~`                      | `not(...)` |
-| `sqrt`                   | `|/` |
+| `sqrt`                   | `\|/` |
 | `abs`                    | `@` |
 | `contains`               | `@>` |
 | `contained_by`           | `<@` |
 | `overlap`                | `&&` |
 | `like`                   | `LIKE` |
 | `ilike`                  | `ILIKE` |
-| `cat`                    | `||` |
+| `cat`                    | `\|\|` |
 | `in_`                    | `in` |
 | `from_`                  | `from` |
 | `at_time_zone`           | `AT TIME ZONE` |
